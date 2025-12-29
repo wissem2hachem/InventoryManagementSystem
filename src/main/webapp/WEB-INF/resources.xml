@@ -1,0 +1,9 @@
+<resources>
+    <Resource id="InventoryDataSource" type="DataSource">
+        JdbcDriver = com.mysql.cj.jdbc.Driver
+        JdbcUrl = jdbc:mysql://localhost:3308/inventory_db
+        UserName = root
+        Password = root
+        JtaManaged = true
+    </Resource>
+</resources>
